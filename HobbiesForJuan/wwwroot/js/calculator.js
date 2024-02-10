@@ -12,7 +12,7 @@
                 var result = parseFloat(value1) * parseFloat(value2);
 
                 // Set the result in the result input field
-                $("#result").val(result);
+                $("#res").val(result);
             });
         });
     }

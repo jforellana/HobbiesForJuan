@@ -5,14 +5,12 @@
 
 <h3>Use this calculator to consider if you'd like tutoring for movies</h3>
 
-<form>
-    <p>How many hours of tutoring do you need per week? <input type="number" id="hours" require min="0" max="40" width="150" placeholder="Please enter a number" /></p>
+<p>How many hours of tutoring do you need per week? <input type="number" id="hours" require min="0" max="40" width="500px" placeholder="Please enter a number" /></p>
     
-    <br />
-    <p>My Hourly Rate --> <input readonly type="text" value="$50.00" /></p>
+<br />
+<p>My Hourly Rate --> <input id="rate" readonly type="text" value="$50.00" /></p>
     
-    <br />
-    <button id="calculate">Calculate</button>
-</form>
+<br />
+<button id="calculate">Calculate</button>
 
-<p>The total charge for a week of tutoring will be: <p id="result"></p></p>
+<p>The total charge for a week of tutoring will be: <p id="res"></p></p>
